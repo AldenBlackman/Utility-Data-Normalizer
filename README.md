@@ -1,7 +1,7 @@
 # 🔌 Utility Data Standardizer
 This project provides a robust, reusable Python toolset for standardizing and analyzing utility usage and demand data from diverse, messy file formats. It supports batch processing, normalization, monthly aggregation, visualization, and export to clean Excel reports—perfect for building a reliable utility data pipeline.
 
-🚀 Features
+# 🚀 Features
 📁 Reads: CSV, Excel, and PDF utility data files
 
 🔍 Cleans: Handles inconsistent column names, units, and time formats

@@ -1,0 +1,35 @@
+cost_usd:
+- cost
+- charge
+- total $
+- total cost
+- $
+- amount
+demand_kW:
+- demand
+- peak
+- max demand
+- kw
+- kw peak
+- peak demand
+meter_id:
+- meter
+- meter number
+- meter_id
+- service_id
+- account number
+timestamp:
+- date
+- datetime
+- interval start
+- interval
+- time
+- timestamp
+usage_kWh:
+- usage
+- energy use
+- kwh
+- kwh used
+- consumption
+- therms
+- energy consumed

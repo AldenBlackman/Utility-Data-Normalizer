@@ -1,13 +1,18 @@
-# Utility-Data-Normalizer
-This is a personal project that automates the process of standardizing utility data csv and xlsx files.
+# 🔌 Utility Data Standardizer
+This project provides a robust, reusable Python toolset for standardizing and analyzing utility usage and demand data from diverse, messy file formats. It supports batch processing, normalization, monthly aggregation, visualization, and export to clean Excel reports—perfect for building a reliable utility data pipeline.
 
-The goal of this package is to use python and pandas to create a package that can read different types of utility data files I've seen, and automatically convert them to a standardized format, with stanard column names, intervals, and visualizations that may be used to derive valuable insights.  
+🚀 Features
+📁 Reads: CSV, Excel, and PDF utility data files
 
-The first step will be to build a standardize_file function that can take in csvs and excel files, apply column mapping, normalizes datetime and units, infers energy type and year, resamples to monthly, and then exports to exel.  
+🔍 Cleans: Handles inconsistent column names, units, and time formats
 
-Then, 15-min interval data  concatenation, aggregation, and visualization.
+🧠 Normalizes: Converts all data into a standard format (timestamp, usage_kWh, demand_kW, cost_usd, meter_id, etc.)
 
-column_mappings.yaml is the used to convert many common column names to standard ones. 
+📊 Analyzes: Aggregates usage and peak demand to monthly level
 
-test_utility_data.csv and test_utility_data.xlsx are sample monthly data. synthetic_monthly_files.zip is the artificially created zip of monthly 15 minute interval data files.
+📈 Visualizes: Bar charts for monthly usage with overlaid peak demand lines
+
+📦 Exports: Creates Excel reports with data + embedded plots
+
+🔁 Batch Processing: Automatically unzips and standardizes a folder of monthly files
 
